@@ -1,0 +1,359 @@
+/*for SoloLearn
+@media { ul { 
+	padding-right: 35px;
+} }
+@media { img {
+	margin-left: 18px;
+} }
+@media { .moatboat-position {
+	margin: 20px 3px 0px 0px;
+} }
+@media { .qualitam-position { 
+	left: 0px;
+} }
+@media { .youtube-logo { 
+	padding: 0px 15px 0px 0px;
+} }
+@media { .twitter-logo { 
+	margin-right: 25px;
+} }
+@media { .suits-padding { 
+	margin-top: 30px;
+} }
+*/
+body, html {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+/*background body images*/
+.blue-wood { 
+        background: url('https://wallpaperaccess.com/full/1567677.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+#html {
+    height: auto;
+}
+#grad {
+	height: auto;
+	background-image: linear-gradient(#0a0a23, #203354)
+}
+body {
+    text-align: center;
+    max-width: auto;
+}
+
+
+
+/* nav bar */
+
+#nav-bar-box {
+    display: flex;
+    background-image: url(images/foam-header-youtube.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    margin: 0 auto 3.5%;
+    z-index: 50;
+}
+.nav-bar-grid {
+    display: grid;
+    grid-gap: 10px;
+    z-index: 50;
+    /* padding: 0 10vw 0 0; /* because pfp width makes a gap */
+    grid-template-areas: 
+        "pfp studio contact testimonials"
+        "pfp clients my-roles about-me";
+}
+.nav-pfp-size {
+    width: 63%;
+}
+pfp {
+    grid-area: pfp;
+    margin: auto 0;
+}
+studio {
+    grid-area: studio;
+    margin: auto 0;
+}
+contact {
+    grid-area: contact;
+    margin: auto 0;
+}
+testimonials {
+    grid-area: testimonials;
+    margin: auto 0;
+}
+clients {
+    grid-area: clients;
+    margin: auto 0;
+}
+my-roles {
+    grid-area: my-roles;
+    margin: auto 0;
+}
+about-me {
+    grid-area: about-me;
+    margin: auto 0;
+}
+.nav-bar-ul {
+    display: flex; 
+    align-items: center;
+    grid-gap: 35px;
+}
+.a-nav-red {color: red;}
+.a-nav-white {color: whitesmoke}
+.nav-dot {color: transparent}
+.nav-font-size {font-size: 35px;}
+.nav-bar-li {font-size: 29px;}
+
+
+/*
+.position-header {padding-bottom: 50px;}
+*/
+
+
+/*text/colors*/
+h1, h2, h3, h4, h5, li {
+	font-family: 'trade winds';
+    font-size: 50px;
+}
+p {
+    font-size: 45px;
+    max-width: 1000;
+    margin: auto;
+}
+.white-text {
+	color: white;
+}
+h1, h2, h3, h4, h5 {
+    color: #ff9933;
+}
+p, ul, li, footer{
+	color: white;
+}
+ul {
+	margin: 10px 0;
+    font-size: 50px;
+}
+strong {
+	color: yellow;
+}
+.links {
+    color: aqua;
+}
+a:hover {
+    color: darkorange;
+}
+hr {
+	margin: 50px 0px 50px 0px;
+}
+
+
+
+/*studio*/
+#studio-flexbox {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 25px;
+}
+
+
+
+/* recent audition */
+#audition-section {
+    background: url('images/foam-header-youtube.jpg') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: -2.2rem;
+}
+#recent-audition { padding-top: 2rem; }
+
+
+
+/*Social Media*/
+.padding-contact-socials-text {
+    padding-top: 1px;
+}
+#social-media-grid {
+    height: 35%;
+	display: grid;
+    grid-template-columns: 250px 250px 220px 250px;
+    grid-template-rows: 250px;
+    flex-wrap: nowrap;
+    justify-content: center;
+	align-items: center;
+    position: relative;
+}
+.youtube-padding {
+    padding-right: 50px;
+}
+.gmail-padding {
+    padding-right: 50px;
+}
+.discord-padding {
+    padding: 3px 10px 0 0;
+}
+.twitter-padding {
+    padding-left: 15px;
+}
+.position-email {
+    padding-right: 570px;
+    font-family: monospace;
+    font-size: 27px;
+}
+#gmail-text {
+    display: grid;
+    grid-template-columns: -1vw;
+    font-size: 35px;
+}
+#discord-text {
+    display: grid;
+    grid-template-columns: 43vw;
+    font-size: 35px;
+}
+
+
+
+.smaller-bax {
+    width: 925px;
+    height: 500px;
+}
+
+
+
+#img-flexbox {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#tweet-flexbox {
+	display: flex;
+    height: auto;
+    width: auto;
+    justify-content: center;
+}
+
+
+
+/*Clients*/
+#clients-flexbox {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.smaller-logos {
+	width: 500px;
+}
+.data7-size {
+    height: 375px;
+    width: 480px;
+}
+
+.qualitam-position {
+    position: relative;
+    right: 10px
+}
+
+
+
+/*About Me*/
+.pfp-border {
+	border-color: #9F2833;
+	border-width: 5px;
+	border-style: solid;
+	border-radius: 50%;
+}
+.pfp-position {
+	position: relative;
+    margin-left: 15px;
+}
+.smaller-image {
+    height: 350;
+    position: relative;
+}
+footer {
+    position: relative;
+    top: 25px;
+    bottom: 25px;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 992px) { .blue-wood {
+    background-image: url('https://wallpaperaccess.com/full/1567677.jpg');
+/*
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+*/
+}}
+/*
+@media only screen and (max-width: 992px) { .nav-bar-ul {
+display: flex; 
+align-items: center;
+justify-content: space-between;
+}
+}
+*/
+@media only screen and (max-width: 992px) { .nav-bar-grid {
+justify-content: center;
+align-items: center;
+}}
+@media only screen and (max-width: 992px) { .nav-pfp-size {
+display: none;
+}}
+@media only screen and (max-width: 992px) { #nav-bar-box {
+height: 10%;
+}}
+@media only screen and (max-width: 992px) { #img-flexbox {
+  padding-right: 2.7%;
+}}
+@media only screen and (max-width: 992px) { .mobile-soundcloud-size {
+    height: 950;
+    width: 85%;
+}}
+@media only screen and (max-width: 992px) { #studio-flexbox {
+grid-gap: 5%;
+}}
+@media only screen and (max-width: 992px) { .mic-padding-right {
+padding-right: 12.5px;
+}}
+@media only screen and (max-width: 992px) { .pre-amp-padding-left {
+padding-left: 12.5px;
+}}
+@media only screen and (max-width: 992px) { .blue-wood-size {
+background: url('https://wallpaperaccess.com/full/1567677.jpg') no-repeat center center; 
+height: 26%;
+}}
+@media only screen and (max-width: 992px) { #social-media-grid {
+height: 30%;
+margin-top: -2.5rem;
+}}
+@media only screen and (max-width: 992px) { #gmail-text {
+width: 100%;
+}}
+@media only screen and (max-width: 992px) { #discord-text {
+padding-left: 200px;
+width: 100%;
+}}
