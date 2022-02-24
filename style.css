@@ -21,35 +21,16 @@
 	margin-top: 30px;
 } }
 */
-body, html {
-    border: 0;
-    padding: 0;
-    margin: 0;
-}
-/*background body images*/
-.blue-wood { 
-        background: url('https://wallpaperaccess.com/full/1567677.jpg') no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-}
-#html {
-    height: auto;
+body { 
+    margin: 0; 
+    text-align: center;
 }
 #grad {
 	height: auto;
 	background-image: linear-gradient(#0a0a23, #203354)
 }
-body {
-    text-align: center;
-    max-width: auto;
-}
-
-
 
 /* nav bar */
-
 #nav-bar-box {
     display: flex;
     background-image: url(images/foam-header-youtube.jpg);
@@ -278,12 +259,8 @@ hr {
 
 
 /*About Me*/
-.pfp-border {
-	border-color: #9F2833;
-	border-width: 5px;
-	border-style: solid;
-	border-radius: 50%;
-}
+.pfp-border { border-radius: 50%; }
+
 .pfp-position {
 	position: relative;
     margin-left: 15px;
