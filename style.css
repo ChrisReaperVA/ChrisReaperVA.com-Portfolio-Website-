@@ -10,6 +10,8 @@ body {
 /* nav bar */
 #nav-bar-box {
     display: flex;
+    width: 100%;
+    height: 15%;
     background-image: url(images/foam-header-youtube.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -17,9 +19,7 @@ body {
     background-size: cover;
     overflow: hidden;
     justify-content: center;
-    width: 100%;
-    height: 15%;
-    margin: 0 auto 3.5%;
+    /*margin: 0 auto 3.5%;*/
     z-index: 50;
 }
 .nav-bar-grid {
@@ -324,6 +324,13 @@ footer {
 
 
 /* 1200px */
+
+/* width */
 @media only screen and (max-width: 1260px) { .mobile-soundcloud-size {
     width: 70%;
+}}
+
+/* height */
+@media only screen and (min-height: 1283px) { .nav-bar-grid { 
+    margin-top: 1.5rem;
 }}
