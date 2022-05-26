@@ -28,8 +28,8 @@ body {
     z-index: 50;
     /* padding: 0 10vw 0 0; /* because pfp width makes a gap */
     grid-template-areas: 
-        "pfp studio contact testimonials"
-        "pfp clients my-roles about-me";
+        "studio contact testimonials"
+        "clients my-roles about-me";
 }
 .nav-pfp-size {
     width: 63%;
@@ -291,52 +291,39 @@ footer {
     background-size: cover;
 */
 }}
-/*
-@media only screen and (max-width: 992px) { .nav-bar-ul {
-display: flex; 
-align-items: center;
-justify-content: space-between;
-}
-}
-*/
+
+/* Mobile */
 @media only screen and (max-width: 992px) { .nav-bar-grid {
-justify-content: center;
-align-items: center;
+    justify-content: center;
+    align-items: center;
 }}
-@media only screen and (max-width: 992px) { .nav-pfp-size {
-display: none;
-}}
-@media only screen and (max-width: 992px) { #nav-bar-box {
-height: 10%;
-}}
-@media only screen and (max-width: 992px) { #img-flexbox {
-  padding-right: 2.7%;
-}}
+@media only screen and (max-width: 992px) { .nav-pfp-size { display: none; }}
+@media only screen and (max-width: 992px) { #nav-bar-box { height: 10%; }}
+@media only screen and (max-width: 992px) { #img-flexbox { padding-right: 2.7%; }}
 @media only screen and (max-width: 992px) { .mobile-soundcloud-size {
-    height: 950;
-    width: 85%;
+    width: 100%;
+    /*height: 950;*/
 }}
-@media only screen and (max-width: 992px) { #studio-flexbox {
-grid-gap: 5%;
-}}
-@media only screen and (max-width: 992px) { .mic-padding-right {
-padding-right: 12.5px;
-}}
-@media only screen and (max-width: 992px) { .pre-amp-padding-left {
-padding-left: 12.5px;
-}}
+@media only screen and (max-width: 992px) { #studio-flexbox { grid-gap: 5%; }}
+@media only screen and (max-width: 992px) { .mic-padding-right { padding-right: 12.5px; }}
+@media only screen and (max-width: 992px) { .pre-amp-padding-left { padding-left: 12.5px; }}
 @media only screen and (max-width: 992px) { .blue-wood-size {
-background: url('https://wallpaperaccess.com/full/1567677.jpg') no-repeat center center; 
-height: 26%;
+    background: url('https://wallpaperaccess.com/full/1567677.jpg') no-repeat center center; 
+    height: 26%;
 }}
 @media only screen and (max-width: 992px) { #social-media-grid {
-height: 30%;
-margin-top: -2.5rem;
+    height: 30%;
+    margin-top: -2.5rem;
 }}
-@media only screen and (max-width: 992px) { #gmail-text {
-width: 100%;
-}}
+@media only screen and (max-width: 992px) { #gmail-text { width: 100%; }}
 @media only screen and (max-width: 992px) { #discord-text {
-padding-left: 200px;
-width: 100%;
+    padding-left: 200px;
+    width: 100%;
+}}
+
+
+
+/* 1200px */
+@media only screen and (max-width: 1260px) { .mobile-soundcloud-size {
+    width: 70%;
 }}
